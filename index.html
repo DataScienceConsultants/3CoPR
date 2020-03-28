@@ -49,10 +49,11 @@
 					<article class="box">
 						<header>
 							<h2>Casos en Puerto Rico </h2>
-							<p><script>
-var tD = new Date();
-var datestr = (tD.getMonth()+ 1) + "/" + tD.getDate() + "/" + tD.getFullYear();
-</script></p>
+							<p id="demo"></p>
+							<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
 						</header>
 						<div class="content">
 							<p> Gracias a Instituto de Estadísticas de Puerto Rico, contamos con un Infograma actualizado 
